@@ -1,7 +1,9 @@
 import * as THREE from 'three';
-import { LineMaterial } from "jsm/lines/LineMaterial.js";
-import { Line2 } from "jsm/lines/Line2.js";
-import { LineGeometry } from "jsm/lines/LineGeometry.js";
+import { LineMaterial } from "three/examples/jsm/lines/LineMaterial.js";
+import { Line2 } from "three/examples/jsm/lines/Line2.js";
+import { LineGeometry } from "three/examples/jsm/lines/LineGeometry.js";
+
+
 const w = window.innerWidth;
 const h = window.innerHeight;
 function getLine({ width }) {

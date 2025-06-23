@@ -1,7 +1,10 @@
 import * as THREE from 'three';
-import { getFresnelMat } from "./getFresnelMat.js";
-import { ImprovedNoise } from 'jsm/math/ImprovedNoise.js';
-// sun
+import { getFresnelMat } from "/src/getFresnelMat.js";
+
+import { ImprovedNoise } from 'three/examples/jsm/math/ImprovedNoise.js';
+
+
+
 
 function getCorona() {
     const radius = 0.9;

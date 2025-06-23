@@ -1,12 +1,13 @@
 import * as THREE from "three";
-import { OrbitControls } from 'jsm/controls/OrbitControls.js';
-import { OBJLoader } from "jsm/loaders/OBJLoader.js";
-import getSun from "./src/getSun.js";
-import getNebula from "./src/getNebula.js";
-import getStarfield from "./src/getStarfield.js";
-import getPlanet from "./src/getPlanet.js";
-import getAsteroidBelt from "./src/getAsteroidBelt.js";
-import getElipticLines from "./src/getElipticLines.js";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader.js";
+import getSun from "/src/getSun.js";
+import getNebula from "/src/getNebula.js";
+import getStarfield from "/src/getStarfield.js";
+import getPlanet from "/src/getPlanet.js";
+import getAsteroidBelt from "/src/getAsteroidBelt.js";
+import getElipticLines from "/src/getElipticLines.js";
+
 
 const w = window.innerWidth;
 const h = window.innerHeight;
